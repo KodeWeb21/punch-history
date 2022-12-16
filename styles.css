@@ -1,0 +1,141 @@
+:root{
+    --primary-color: #DC5F00;
+    --background-message: rgba(217, 217, 217,.8);
+    --background-container-message: #EEEEEE;
+}
+
+
+/* HEADER */
+/* .icon{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__container{
+    position: relative;
+} */
+
+
+/* Main */
+
+.finger{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.finger__icon{
+    width: 130px;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 3px 20px;
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.log__item{
+    margin: 15px 0;
+}
+
+.log{
+    list-style: none;
+}
+
+
+/*Dialog Message */
+
+.message{
+    position: fixed;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-message);
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+}
+
+.message__container{
+    background-color: var(--background-container-message);
+    padding: 20px 40px;
+    border-radius: 3px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message__icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+.close{
+    border: 0;
+    align-self: flex-end;
+    text-align: right;
+    justify-self: flex-start;
+    cursor: pointer;
+}
+
+.message__text{
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+@media screen and (min-width: 460px){
+    .log{
+        text-align: center;
+    }
+}
+
+
+/* .settins{
+    border: 1px solid;
+    box-shadow: 0 0 2px ;
+    list-style: none;
+    padding: 10px 5px;
+    position: absolute;
+    left: -40px;
+    transform: translateX(-70px);
+    top: -15px;
+    transition: transform .3s ease;
+    z-index: 10;
+    background-color: var(--background-container-message);
+}
+
+
+.settins__link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.settins--inactive{
+    transform: translateX(70px);
+} */
