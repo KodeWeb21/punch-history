@@ -9,7 +9,7 @@
     "display": "minimal-ui",
     "orientation": "portrait-primary",
     "theme_color": "aliceblue",
-    "start_url": "http://127.0.0.1:5500/",
+    "start_url": "https://kodeweb21.github.io/punch-history/",
     "icons": [
       {
         "src": "/icon/finger-print-sharp.svg",
