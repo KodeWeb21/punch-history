@@ -2,15 +2,15 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
       caches.open("v1").then((cache) => {
         return cache.addAll([
-          "/index.html",
-          "/styles.css",
-          "/scripts.js",
-          "/sw.js",
-          "/history.html",
-          "/history.css",
-          "/general.css",
-          "/icon/finger-print-sharp.svg",
-          "/icon/time-history.svg"
+          "./index.html",
+          "./styles.css",
+          "./scripts.js",
+          "./sw.js",
+          "./history.html",
+          "./history.css",
+          "./general.css",
+          "./icon/finger-print-sharp.svg",
+          "./icon/time-history.svg"
         ]);
       })
     );

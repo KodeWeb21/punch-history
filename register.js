@@ -1,6 +1,6 @@
 const registerServiceWorker = () =>{
     navigator.serviceWorker
-  .register("https://kodeweb21.github.io/punch-history/sw.js")
+  .register("./sw.js")
   .then((register) => {
     console.log('Service Worker Registrado');
   })
