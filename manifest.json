@@ -5,10 +5,8 @@
     "background_color": "#ecf0f1",
     "description": "Registra la hora de entrada y salida del trabajo. De manera facil y sencilla",
     "lang": "es-DO",
-    "launch_handler": "auto"
     "dir": "ltr",
     "display": "minimal-ui",
-    "display_override": ["window-controls-overlay", "standalone", "browser"],
     "orientation": "portrait-primary",
     "theme_color": "#f0f8ff",
     "start_url": "https://kodeweb21.github.io/punch-history/",
