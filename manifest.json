@@ -9,9 +9,10 @@
     "display": "minimal-ui",
     "orientation": "portrait-primary",
     "theme_color": "#f0f8ff",
+    "start_url": "https://punch-history.pages.dev/",
     "icons": [
       {
-        "src": "https://kodeweb21.github.io/punch-history/icon/finger-print-sharp.svg",
+        "src": "https://punch-history.pages.dev/icon/finger-print-sharp.svg",
         "sizes": "512x512",
         "type": "image/svg+xml"
       }
