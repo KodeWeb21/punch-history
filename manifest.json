@@ -9,7 +9,6 @@
     "display": "minimal-ui",
     "orientation": "portrait-primary",
     "theme_color": "#f0f8ff",
-    "start_url": "https://kodeweb21.github.io/punch-history/",
     "icons": [
       {
         "src": "https://kodeweb21.github.io/punch-history/icon/finger-print-sharp.svg",
